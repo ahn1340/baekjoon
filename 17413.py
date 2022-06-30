@@ -10,7 +10,6 @@ answer = ''
 processing_tag = False
 queue = deque()
 for char in str:
-    # 1. if tag starts, make flag true
     if char == '<':
         processing_tag = True
         word = ''
