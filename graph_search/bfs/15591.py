@@ -1,6 +1,6 @@
 """
 Author: Jin Woo Ahn
-백준 15591번 문제 (
+백준 15591번 문제
 """
 
 from collections import deque

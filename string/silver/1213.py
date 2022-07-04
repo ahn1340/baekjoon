@@ -3,8 +3,6 @@ Author: Jin Woo Ahn
 baekjoon problem 1254 (팰린드롬 만들기)
 
 """
-
-
 characters = list(input())
 
 char_dict = {}
@@ -40,6 +38,5 @@ def make_palindrome(char_dict):
     answer = str + odd_char + reverse
 
     return answer
-        
 
 print(make_palindrome(char_dict))
